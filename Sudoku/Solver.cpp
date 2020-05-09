@@ -1,7 +1,5 @@
 #include"Solver.h"
 #include<iostream>
-#include<time.h>
-#include<cstdlib>
 #include<conio.h>
 #include<windows.h>
 
@@ -67,7 +65,6 @@ void read_sudoku(int sudoku[9][9])
 
 void print_sudoku(int sudoku[9][9], bool inputed[9][9])
 {
-
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	for (int i = 0; i < 9; i++)
 	{
